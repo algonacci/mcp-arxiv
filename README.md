@@ -13,14 +13,11 @@ For this MCP server to work, add the following configuration to your MCP config 
       "command": "uv",
       "args": [
         "--directory",
-        "C:/Users/Braincore/Documents/GitHub/mcp-arxiv",
+        "/path/to/your/mcp-arxiv",
         "run",
         "python",
         "main.py"
-      ],
-      "env": {
-        "ARXIV_PAPER_STORAGE_PATH": "C:/Users/Braincore/Downloads/ArxivPapers"
-      }
+      ]
     }
   }
 }
